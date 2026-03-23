@@ -1,227 +1,0 @@
-Script started on 2026-03-22 18:31:05+05:30 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="94" LINES="31"]
-[?2004h]0;parthivendra_singh@PS-Inspire: /media/Michi/Obsidian Vault/PS-Inspire/Semester 6/Sem 6 Code Workspace/learning-git-github[01;32mparthivendra_singh@PS-Inspire[00m:[01;34mlearning-git-github[00m$ clear
-[?2004l[H[2J[3J[?2004h]0;parthivendra_singh@PS-Inspire: /media/Michi/Obsidian Vault/PS-Inspire/Semester 6/Sem 6 Code Workspace/learning-git-github[01;32mparthivendra_singh@PS-Inspire[00m:[01;34mlearning-git-github[00m$ git status
-[?2004lOn branch main
-Your branch is ahead of 'origin/main' by 1 commit.
-  (use "git push" to publish your local commits)
-
-Untracked files:
-  (use "git add <file>..." to include in what will be committed)
-	[31msession.txt[m
-
-nothing added to commit but untracked files present (use "git add" to track)
-[?2004h]0;parthivendra_singh@PS-Inspire: /media/Michi/Obsidian Vault/PS-Inspire/Semester 6/Sem 6 Code Workspace/learning-git-github[01;32mparthivendra_singh@PS-Inspire[00m:[01;34mlearning-git-github[00m$ rm one.txt 
-[?2004l[?2004h]0;parthivendra_singh@PS-Inspire: /media/Michi/Obsidian Vault/PS-Inspire/Semester 6/Sem 6 Code Workspace/learning-git-github[01;32mparthivendra_singh@PS-Inspire[00m:[01;34mlearning-git-github[00m$ git status
-[?2004lOn branch main
-Your branch is ahead of 'origin/main' by 1 commit.
-  (use "git push" to publish your local commits)
-
-Changes not staged for commit:
-  (use "git add/rm <file>..." to update what will be committed)
-  (use "git restore <file>..." to discard changes in working directory)
-	[31mdeleted:    one.txt[m
-
-Untracked files:
-  (use "git add <file>..." to include in what will be committed)
-	[31msession.txt[m
-
-no changes added to commit (use "git add" and/or "git commit -a")
-[?2004h]0;parthivendra_singh@PS-Inspire: /media/Michi/Obsidian Vault/PS-Inspire/Semester 6/Sem 6 Code Workspace/learning-git-github[01;32mparthivendra_singh@PS-Inspire[00m:[01;34mlearning-git-github[00m$ gt[Kit o[Kcommit -m "deleted a g[Kfile"
-[?2004lOn branch main
-Your branch is ahead of 'origin/main' by 1 commit.
-  (use "git push" to publish your local commits)
-
-Changes not staged for commit:
-  (use "git add/rm <file>..." to update what will be committed)
-  (use "git restore <file>..." to discard changes in working directory)
-	[31mdeleted:    one.txt[m
-
-Untracked files:
-  (use "git add <file>..." to include in what will be committed)
-	[31msession.txt[m
-
-no changes added to commit (use "git add" and/or "git commit -a")
-[?2004h]0;parthivendra_singh@PS-Inspire: /media/Michi/Obsidian Vault/PS-Inspire/Semester 6/Sem 6 Code Workspace/learning-git-github[01;32mparthivendra_singh@PS-Inspire[00m:[01;34mlearning-git-github[00m$ git add. .
-[?2004l[?2004h]0;parthivendra_singh@PS-Inspire: /media/Michi/Obsidian Vault/PS-Inspire/Semester 6/Sem 6 Code Workspace/learning-git-github[01;32mparthivendra_singh@PS-Inspire[00m:[01;34mlearning-git-github[00m$ git add .commit -m "deleted a file"add .[K[Kgit status
-[?2004lOn branch main
-Your branch is ahead of 'origin/main' by 1 commit.
-  (use "git push" to publish your local commits)
-
-Changes to be committed:
-  (use "git restore --staged <file>..." to unstage)
-	[32mdeleted:    one.txt[m
-	[32mnew file:   session.txt[m
-
-[?2004h]0;parthivendra_singh@PS-Inspire: /media/Michi/Obsidian Vault/PS-Inspire/Semester 6/Sem 6 Code Workspace/learning-git-github[01;32mparthivendra_singh@PS-Inspire[00m:[01;34mlearning-git-github[00m$ git rm four.txt 
-[?2004lrm 'four.txt'
-[?2004h]0;parthivendra_singh@PS-Inspire: /media/Michi/Obsidian Vault/PS-Inspire/Semester 6/Sem 6 Code Workspace/learning-git-github[01;32mparthivendra_singh@PS-Inspire[00m:[01;34mlearning-git-github[00m$ git rm four.txt [6Pstatus
-[?2004lOn branch main
-Your branch is ahead of 'origin/main' by 1 commit.
-  (use "git push" to publish your local commits)
-
-Changes to be committed:
-  (use "git restore --staged <file>..." to unstage)
-	[32mdeleted:    four.txt[m
-	[32mdeleted:    one.txt[m
-	[32mnew file:   session.txt[m
-
-[?2004h]0;parthivendra_singh@PS-Inspire: /media/Michi/Obsidian Vault/PS-Inspire/Semester 6/Sem 6 Code Workspace/learning-git-github[01;32mparthivendra_singh@PS-Inspire[00m:[01;34mlearning-git-github[00m$ ls
-[?2004l[0m[01;34mmyFolder[0m  [01;32mnew-file-made-locally.txt[0m  [01;32msession.txt[0m
-[?2004h]0;parthivendra_singh@PS-Inspire: /media/Michi/Obsidian Vault/PS-Inspire/Semester 6/Sem 6 Code Workspace/learning-git-github[01;32mparthivendra_singh@PS-Inspire[00m:[01;34mlearning-git-github[00m$ lsgit statusrm four.txt [6Pstatusls[K[Kgit reset
-[?2004lUnstaged changes after reset:
-D	four.txt
-D	one.txt
-[?2004h]0;parthivendra_singh@PS-Inspire: /media/Michi/Obsidian Vault/PS-Inspire/Semester 6/Sem 6 Code Workspace/learning-git-github[01;32mparthivendra_singh@PS-Inspire[00m:[01;34mlearning-git-github[00m$ ls
-[?2004l[0m[01;34mmyFolder[0m  [01;32mnew-file-made-locally.txt[0m  [01;32msession.txt[0m
-[?2004h]0;parthivendra_singh@PS-Inspire: /media/Michi/Obsidian Vault/PS-Inspire/Semester 6/Sem 6 Code Workspace/learning-git-github[01;32mparthivendra_singh@PS-Inspire[00m:[01;34mlearning-git-github[00m$ ls myFolder/
-[?2004l[0m[01;32mthree.txt[0m
-[?2004h]0;parthivendra_singh@PS-Inspire: /media/Michi/Obsidian Vault/PS-Inspire/Semester 6/Sem 6 Code Workspace/learning-git-github[01;32mparthivendra_singh@PS-Inspire[00m:[01;34mlearning-git-github[00m$ git status
-[?2004lOn branch main
-Your branch is ahead of 'origin/main' by 1 commit.
-  (use "git push" to publish your local commits)
-
-Changes not staged for commit:
-  (use "git add/rm <file>..." to update what will be committed)
-  (use "git restore <file>..." to discard changes in working directory)
-	[31mdeleted:    four.txt[m
-	[31mdeleted:    one.txt[m
-
-Untracked files:
-  (use "git add <file>..." to include in what will be committed)
-	[31msession.txt[m
-
-no changes added to commit (use "git add" and/or "git commit -a")
-[?2004h]0;parthivendra_singh@PS-Inspire: /media/Michi/Obsidian Vault/PS-Inspire/Semester 6/Sem 6 Code Workspace/learning-git-github[01;32mparthivendra_singh@PS-Inspire[00m:[01;34mlearning-git-github[00m$ eh[Kh[Kcho "ys[K[Kusing reset ib[K[Konly the changes a[Kcome bac k to[K[Knto[K[Kot the changed/deteled fie[Kles"
-[?2004lusing reset only the changes come back not the changed/deteled files
-[?2004h]0;parthivendra_singh@PS-Inspire: /media/Michi/Obsidian Vault/PS-Inspire/Semester 6/Sem 6 Code Workspace/learning-git-github[01;32mparthivendra_singh@PS-Inspire[00m:[01;34mlearning-git-github[00m$ echo "using reset only the changes come back not the changed/deteled files"[A]0;parthivendra_singh@PS-Inspire: /media/Michi/Obsidian Vault/PS-Inspire/Semester 6/Sem 6 Code Workspace/learning-git-github[01;32mparthivendra_singh@PS-Inspire[00m:[01;34mlearning-git-github[00m$ git status[K
-[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls myFolder/[Kgit reset --hard
-[?2004lHEAD is now at 6960cd3 Made some changes to the files
-[?2004h]0;parthivendra_singh@PS-Inspire: /media/Michi/Obsidian Vault/PS-Inspire/Semester 6/Sem 6 Code Workspace/learning-git-github[01;32mparthivendra_singh@PS-Inspire[00m:[01;34mlearning-git-github[00m$ git reset --hardecho "using reset only the changes come back not the changed/deteled files"[A]0;parthivendra_singh@PS-Inspire: /media/Michi/Obsidian Vault/PS-Inspire/Semester 6/Sem 6 Code Workspace/learning-git-github[01;32mparthivendra_singh@PS-Inspire[00m:[01;34mlearning-git-github[00m$ git status[K
-[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
-[?2004lOn branch main
-Your branch is ahead of 'origin/main' by 1 commit.
-  (use "git push" to publish your local commits)
-
-Untracked files:
-  (use "git add <file>..." to include in what will be committed)
-	[31msession.txt[m
-
-nothing added to commit but untracked files present (use "git add" to track)
-[?2004h]0;parthivendra_singh@PS-Inspire: /media/Michi/Obsidian Vault/PS-Inspire/Semester 6/Sem 6 Code Workspace/learning-git-github[01;32mparthivendra_singh@PS-Inspire[00m:[01;34mlearning-git-github[00m$ ls
-[?2004l[0m[01;32mfour.txt[0m  [01;34mmyFolder[0m  [01;32mnew-file-made-locally.txt[0m  [01;32mone.txt[0m  [01;32msession.txt[0m
-[?2004h]0;parthivendra_singh@PS-Inspire: /media/Michi/Obsidian Vault/PS-Inspire/Semester 6/Sem 6 Code Workspace/learning-git-github[01;32mparthivendra_singh@PS-Inspire[00m:[01;34mlearning-git-github[00m$ echo "Changed text" > 4[Kfour.txt 
-[?2004l[?2004h]0;parthivendra_singh@PS-Inspire: /media/Michi/Obsidian Vault/PS-Inspire/Semester 6/Sem 6 Code Workspace/learning-git-github[01;32mparthivendra_singh@PS-Inspire[00m:[01;34mlearning-git-github[00m$ gir [K[Kt rm four.txt 
-[?2004lerror: the following file has local modifications:
-    four.txt
-(use --cached to keep the file, or -f to force removal)
-[?2004h]0;parthivendra_singh@PS-Inspire: /media/Michi/Obsidian Vault/PS-Inspire/Semester 6/Sem 6 Code Workspace/learning-git-github[01;32mparthivendra_singh@PS-Inspire[00m:[01;34mlearning-git-github[00m$ echo "locallt[Ky modified files[K/f[K[Ks/foll[Kders cannot  be deleted via git [K without comitting them.[K\[K"
-[?2004llocally modified files/folders cannot be deleted via git without comitting them
-[?2004h]0;parthivendra_singh@PS-Inspire: /media/Michi/Obsidian Vault/PS-Inspire/Semester 6/Sem 6 Code Workspace/learning-git-github[01;32mparthivendra_singh@PS-Inspire[00m:[01;34mlearning-git-github[00m$ echo "locally modified files/folders cannot be deleted via git without comitting them"[A]0;parthivendra_singh@PS-Inspire: /media/Michi/Obsidian Vault/PS-Inspire/Semester 6/Sem 6 Code Workspace/learning-git-github[01;32mparthivendra_singh@PS-Inspire[00m:[01;34mlearning-git-github[00m$ [27Pgit rm four.txt 
-[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@-[C[1@f[1@ 
-[?2004lrm 'four.txt'
-[?2004h]0;parthivendra_singh@PS-Inspire: /media/Michi/Obsidian Vault/PS-Inspire/Semester 6/Sem 6 Code Workspace/learning-git-github[01;32mparthivendra_singh@PS-Inspire[00m:[01;34mlearning-git-github[00m$ ls
-[?2004l[0m[01;34mmyFolder[0m  [01;32mnew-file-made-locally.txt[0m  [01;32mone.txt[0m  [01;32msession.txt[0m
-[?2004h]0;parthivendra_singh@PS-Inspire: /media/Michi/Obsidian Vault/PS-Inspire/Semester 6/Sem 6 Code Workspace/learning-git-github[01;32mparthivendra_singh@PS-Inspire[00m:[01;34mlearning-git-github[00m$ git reset -h-[K[K-hard
-[?2004lHEAD is now at 6960cd3 Made some changes to the files
-[?2004h]0;parthivendra_singh@PS-Inspire: /media/Michi/Obsidian Vault/PS-Inspire/Semester 6/Sem 6 Code Workspace/learning-git-github[01;32mparthivendra_singh@PS-Inspire[00m:[01;34mlearning-git-github[00m$ ls
-[?2004l[0m[01;32mfour.txt[0m  [01;34mmyFolder[0m  [01;32mnew-file-made-locally.txt[0m  [01;32mone.txt[0m  [01;32msession.txt[0m
-[?2004h]0;parthivendra_singh@PS-Inspire: /media/Michi/Obsidian Vault/PS-Inspire/Semester 6/Sem 6 Code Workspace/learning-git-github[01;32mparthivendra_singh@PS-Inspire[00m:[01;34mlearning-git-github[00m$ cat four.txt 
-[?2004l4
-[?2004h]0;parthivendra_singh@PS-Inspire: /media/Michi/Obsidian Vault/PS-Inspire/Semester 6/Sem 6 Code Workspace/learning-git-github[01;32mparthivendra_singh@PS-Inspire[00m:[01;34mlearning-git-github[00m$ echo [K[K[K[K[Kecho "hello" fo[K[K> four.txt 
-[?2004l[?2004h]0;parthivendra_singh@PS-Inspire: /media/Michi/Obsidian Vault/PS-Inspire/Semester 6/Sem 6 Code Workspace/learning-git-github[01;32mparthivendra_singh@PS-Inspire[00m:[01;34mlearning-git-github[00m$ git rm --cached four.txt 
-[?2004lrm 'four.txt'
-[?2004h]0;parthivendra_singh@PS-Inspire: /media/Michi/Obsidian Vault/PS-Inspire/Semester 6/Sem 6 Code Workspace/learning-git-github[01;32mparthivendra_singh@PS-Inspire[00m:[01;34mlearning-git-github[00m$ git status 
-[?2004lOn branch main
-Your branch is ahead of 'origin/main' by 1 commit.
-  (use "git push" to publish your local commits)
-
-Changes to be committed:
-  (use "git restore --staged <file>..." to unstage)
-	[32mdeleted:    four.txt[m
-
-Untracked files:
-  (use "git add <file>..." to include in what will be committed)
-	[31mfour.txt[m
-	[31msession.txt[m
-
-[?2004h]0;parthivendra_singh@PS-Inspire: /media/Michi/Obsidian Vault/PS-Inspire/Semester 6/Sem 6 Code Workspace/learning-git-github[01;32mparthivendra_singh@PS-Inspire[00m:[01;34mlearning-git-github[00m$ ls
-[?2004l[0m[01;32mfour.txt[0m  [01;34mmyFolder[0m  [01;32mnew-file-made-locally.txt[0m  [01;32mone.txt[0m  [01;32msession.txt[0m
-[?2004h]0;parthivendra_singh@PS-Inspire: /media/Michi/Obsidian Vault/PS-Inspire/Semester 6/Sem 6 Code Workspace/learning-git-github[01;32mparthivendra_singh@PS-Inspire[00m:[01;34mlearning-git-github[00m$ echo "diff btw --force and --cached"
-[?2004ldiff btw --force and --cached
-[?2004h]0;parthivendra_singh@PS-Inspire: /media/Michi/Obsidian Vault/PS-Inspire/Semester 6/Sem 6 Code Workspace/learning-git-github[01;32mparthivendra_singh@PS-Inspire[00m:[01;34mlearning-git-github[00m$ mk[K[Kgit reset --hard 
-[?2004lHEAD is now at 6960cd3 Made some changes to the files
-[?2004h]0;parthivendra_singh@PS-Inspire: /media/Michi/Obsidian Vault/PS-Inspire/Semester 6/Sem 6 Code Workspace/learning-git-github[01;32mparthivendra_singh@PS-Inspire[00m:[01;34mlearning-git-github[00m$ git add .
-[?2004l[?2004h]0;parthivendra_singh@PS-Inspire: /media/Michi/Obsidian Vault/PS-Inspire/Semester 6/Sem 6 Code Workspace/learning-git-github[01;32mparthivendra_singh@PS-Inspire[00m:[01;34mlearning-git-github[00m$ git commit -m "included terminal sesso[Kion"
-[?2004l[main 9312b0b] included terminal session
- 1 file changed, 131 insertions(+)
- create mode 100644 session.txt
-[?2004h]0;parthivendra_singh@PS-Inspire: /media/Michi/Obsidian Vault/PS-Inspire/Semester 6/Sem 6 Code Workspace/learning-git-github[01;32mparthivendra_singh@PS-Inspire[00m:[01;34mlearning-git-github[00m$ ll[K[Kgit rm -r myFolder/
-[?2004lrm 'myFolder/three.txt'
-[?2004h]0;parthivendra_singh@PS-Inspire: /media/Michi/Obsidian Vault/PS-Inspire/Semester 6/Sem 6 Code Workspace/learning-git-github[01;32mparthivendra_singh@PS-Inspire[00m:[01;34mlearning-git-github[00m$ st[K[Kgit status
-[?2004lOn branch main
-Your branch is ahead of 'origin/main' by 2 commits.
-  (use "git push" to publish your local commits)
-
-Changes to be committed:
-  (use "git restore --staged <file>..." to unstage)
-	[32mdeleted:    myFolder/three.txt[m
-
-[?2004h]0;parthivendra_singh@PS-Inspire: /media/Michi/Obsidian Vault/PS-Inspire/Semester 6/Sem 6 Code Workspace/learning-git-github[01;32mparthivendra_singh@PS-Inspire[00m:[01;34mlearning-git-github[00m$ git resee[Kt
-[?2004lUnstaged changes after reset:
-D	myFolder/three.txt
-[?2004h]0;parthivendra_singh@PS-Inspire: /media/Michi/Obsidian Vault/PS-Inspire/Semester 6/Sem 6 Code Workspace/learning-git-github[01;32mparthivendra_singh@PS-Inspire[00m:[01;34mlearning-git-github[00m$ ls
-[?2004l[0m[01;32mfour.txt[0m  [01;32mnew-file-made-locally.txt[0m  [01;32mone.txt[0m  [01;32msession.txt[0m
-[?2004h]0;parthivendra_singh@PS-Inspire: /media/Michi/Obsidian Vault/PS-Inspire/Semester 6/Sem 6 Code Workspace/learning-git-github[01;32mparthivendra_singh@PS-Inspire[00m:[01;34mlearning-git-github[00m$ lsgit reset --hard
-[?2004lHEAD is now at 9312b0b included terminal session
-[?2004h]0;parthivendra_singh@PS-Inspire: /media/Michi/Obsidian Vault/PS-Inspire/Semester 6/Sem 6 Code Workspace/learning-git-github[01;32mparthivendra_singh@PS-Inspire[00m:[01;34mlearning-git-github[00m$ git reset --hardls[K
-[?2004l[0m[01;32mfour.txt[0m  [01;34mmyFolder[0m  [01;32mnew-file-made-locally.txt[0m  [01;32mone.txt[0m  [01;32msession.txt[0m
-[?2004h]0;parthivendra_singh@PS-Inspire: /media/Michi/Obsidian Vault/PS-Inspire/Semester 6/Sem 6 Code Workspace/learning-git-github[01;32mparthivendra_singh@PS-Inspire[00m:[01;34mlearning-git-github[00m$ c;ea[K[K[Klear[K[K[K[K[Kgit log
-[?2004l[?1h=[33mcommit 9312b0bba67726c13d0eb785e0e758c691ec8c11[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m[m
-Author: Parthivendra Singh <parthivendra2004@gmail.com>[m
-Date:   Sun Mar 22 18:38:04 2026 +0530[m
-[m
-    included terminal session[m
-[m
-[33mcommit 6960cd3a3bebb972348fe49e3d6023cdfed28fda[m[m
-Author: Parthivendra Singh <parthivendra2004@gmail.com>[m
-Date:   Sun Mar 22 18:29:01 2026 +0530[m
-[m
-    Made some changes to the files[m
-[m
-[33mcommit 514a0080c06fa1c44350fee4d3fd79c81abdbf5e[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m[m
-Author: Parthivendra Singh <144941363+Parthivendra@users.noreply.github.com>[m
-Date:   Sun Mar 22 17:57:07 2026 +0530[m
-[m
-    Add two.txt with a single line containing '2'[m
-[m
-[33mcommit 2b74f14115c2cfe68ce021da71b29977a772a5e2[m[m
-Author: Parthivendra Singh <144941363+Parthivendra@users.noreply.github.com>[m
-Date:   Sun Mar 22 17:56:35 2026 +0530[m
-[m
-    Add one.txt with initial content[m
-[K[?1l>[?2004h]0;parthivendra_singh@PS-Inspire: /media/Michi/Obsidian Vault/PS-Inspire/Semester 6/Sem 6 Code Workspace/learning-git-github[01;32mparthivendra_singh@PS-Inspire[00m:[01;34mlearning-git-github[00m$ git log --oneline
-[?2004l[?1h=[33m9312b0b[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m included terminal session[m
-[33m6960cd3[m Made some changes to the files[m
-[33m514a008[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m Add two.txt with a single line containing '2'[m
-[33m2b74f14[m Add one.txt with initial content[m
-[K[?1l>[?2004h]0;parthivendra_singh@PS-Inspire: /media/Michi/Obsidian Vault/PS-Inspire/Semester 6/Sem 6 Code Workspace/learning-git-github[01;32mparthivendra_singh@PS-Inspire[00m:[01;34mlearning-git-github[00m$ git status
-[?2004lOn branch main
-Your branch is ahead of 'origin/main' by 2 commits.
-  (use "git push" to publish your local commits)
-
-Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
-  (use "git restore <file>..." to discard changes in working directory)
-	[31mmodified:   session.txt[m
-
-no changes added to commit (use "git add" and/or "git commit -a")
-[?2004h]0;parthivendra_singh@PS-Inspire: /media/Michi/Obsidian Vault/PS-Inspire/Semester 6/Sem 6 Code Workspace/learning-git-github[01;32mparthivendra_singh@PS-Inspire[00m:[01;34mlearning-git-github[00m$ git branch
-[?2004l[?1h=* [32mmain[m[m
-[K[?1l>[?2004h]0;parthivendra_singh@PS-Inspire: /media/Michi/Obsidian Vault/PS-Inspire/Semester 6/Sem 6 Code Workspace/learning-git-github[01;32mparthivendra_singh@PS-Inspire[00m:[01;34mlearning-git-github[00m$ git branch develp[Kopment
-[?2004l[?2004h]0;parthivendra_singh@PS-Inspire: /media/Michi/Obsidian Vault/PS-Inspire/Semester 6/Sem 6 Code Workspace/learning-git-github[01;32mparthivendra_singh@PS-Inspire[00m:[01;34mlearning-git-github[00m$ git branch development[K
-[?2004l[?1h=  development[m[m
-* [32mmain[m[m
-[K[?1l>[?2004h]0;parthivendra_singh@PS-Inspire: /media/Michi/Obsidian Vault/PS-Inspire/Semester 6/Sem 6 Code Workspace/learning-git-github[01;32mparthivendra_singh@PS-Inspire[00m:[01;34mlearning-git-github[00m$ git checkout development 
-[?2004lM	session.txt
-Switched to branch 'development'
-[?2004h]0;parthivendra_singh@PS-Inspire
